@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+    background-image: url("/images/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+    body {
+        padding: 20px;
+        background-image: url("/images/bg-mob.svg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+}
